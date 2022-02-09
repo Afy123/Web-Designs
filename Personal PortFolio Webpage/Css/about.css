@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: url('./Pictures/5.jpg');
+    background-color:#e79325;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+}
+
+.navbar{
+    width: 1500px;
+    height: 75px;
+    margin: 0;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left: 750px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.content{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    }
+    
+    
+    .content h1{
+        font-family: 'Times New Roman';
+        font-size: 50px;
+        padding-left: 650px;
+        margin-top: 10%;
+        letter-spacing: 1px; 
+        line-height: px;
+    }
+    
+    .content p{
+        padding-left: 700px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 25px;
+    }
+
+    .content span{
+        color:rgb(0, 0, 0);
+        font-size: 45px;
+        font-family: 'Courier New';
+        font-weight: 530;
+    }
+    
+    /* .hire{
+    width: 200px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 800px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    }
+    
+    .content .hire a{
+        text-decoration: none;
+        color:rgb(255,165,0);
+        transition: 0.3s ease;
+    }
+    
+    .hire:hover{
+        background-color:rgb(0, 0, 0);
+    } */
+    .work{
+        text-decoration: none;
+        font-size: 25px;
+        color:black;
+    }

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color:black;
+}
+
+.navbar {
+    width: 1480px;
+    height: 40px;
+    margin: auto;
+    
+}
+
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+ul li {
+    padding-bottom: 10px;
+    list-style: none;
+    margin-left: 90px;
+    margin-right: 150px;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(121, 96, 96);
+}
+
+.timeline{
+    width: auto;
+    height:1000vh ;
+    background: url(./Pictures/ELON_MUSK_TIMELINE.jpg);
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
